@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');;
+
+body{
+    background-color: color rgb(255, 255, 255);
+    font-family: 'Recursive', sans-serif;
+}
+
+
+h1, h2, #imghead{
+    padding: 15px;
+    margin-left: 15px;
+    color: rgb(242, 159, 4, 1);
+}
+
+h3{
+    text-align: center;
+    font-size: x-large;
+}
+h2{
+    text-align: center;
+    font-size: xx-large;
+}
+
+#imghead {
+    width: 50%;
+    position: relative; left: 15px;
+}
+
+#icon {
+   position: relative; top: 13px;
+}
+
+legend{
+    width: 100%;
+}
+
+li {
+    font-size: x-large;
+}
+
+#ul_cab li{
+    display: inline;
+    background-color: rgb(191, 119, 32, 1);
+    text-decoration: none;
+    padding: 40px 10px 40px 10px;
+}
+
+div#molho, div#poche, div#montagem {
+    background-color: rgb(84, 114, 140, 1);
+    color: rgb(235, 178, 109);
+    margin: auto;
+    text-align: center;
+    font-size: small;
+}
+
+button{
+    background-color: rgb(165, 62, 3, 1);
+    border-radius: 30px;
+    border: 0;
+    padding: 10px;
+    color: white;
+    font-size: larger;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+button:hover{
+    cursor: pointer;
+}
+
+#fatec {
+    width: 300px;
+    margin: auto;
+    position: relative;
+}
+
+footer {
+    background-color: rgb(226, 225, 223) ;
+    font-size: x-large;
+    text-align: center;
+}
