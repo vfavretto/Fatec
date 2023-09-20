@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Formulário02 </title>
+</head>
+<body>
+    <h2>Roupas de Luxo</h2>
+    <h3>Cadastro</h3>
+    <form>
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <div>
+                <label for="login">Nome</label>
+                <input type="text" 
+                       name="login" 
+                       id="login" 
+                       placeholder="Digite o login"
+                       maxlength="20"
+                       minlength="10"
+                       size="20"
+                       required>
+<!--Max e Min servem pra definir um minimo ou um maximo para o usúario-->
+<!--Já o size serve para o tamanho do campo-->
+                <label for="pass">Senha</label>
+                <input type="password" 
+                       name="password" 
+                       id="pass" 
+                       placeholder="Digite sua senha"
+                       maxlength="11"
+                       size="11"> <br>
+                <label for="mail">Email</label>
+                <input type="email" name="mail" id="mail" placeholder="Digite seu email"> <br>
+                
+                <input type="radio" name="Ec" id="ec" value="casado">
+                <label for="">Casado</label>
+                <input type="radio" name="Ec" id="ec" value="solteiro">
+                <label for="">Solteiro</label>
+                <input type="radio" name="Ec" id="ec" value="friendZone">
+                <label for="">FriendZone</label>
+<br>
+                <label for="color">Cor preferida</label>
+                <input type="color" name="cor" id="color">
+
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Dados de Cobrança</legend>
+            <div>
+                <label for="city">Cidade</label>
+                <input type="text" 
+                       name="cidade" 
+                       id="city"
+                       placeholder="Digite seu Endereço"
+                       value="Votorantim"
+                       disabled>
+                <label for="uf">Estado</label>
+<!--Select para criar opções de escolha pro usúario-->
+<!--Optgroup para criar um grupo selecionavel e o option para os valores-->
+<!--Value sempre pra definir resultado dos dados do campo para utilização-->
+                <select name="uf" id="uf">
+                    <optgroup label="Região Norte">
+                        <option value="AM">AM</option>
+                        <option value="AC">AC</option>
+                        <option value="AP">AP</option>
+                        <option value="RR">RR</option>
+                    </optgroup>
+                    <optgroup label="Região Sudeste">
+                        <option value="SP">SP</option>
+                        <option value="MG">MG</option>
+                        <option value="RJ">RJ</option>
+                        <option value="ES">ES</option>
+                    </optgroup>
+                </select>
+<!--Checkbox serve pra abrir um botão selecionavel e o checked é pra ele já aparecer-->
+                <input type="checkbox" name="Express" id="envio" checked>
+                <label for="envio">Express?</label> <br>
+                <label for="cep">Telefone</label>
+                <input type="tel" name="" id="" pattern="">
+<!--pattern é uma regex (Expressão Regular) serve para limitar o campo-->
+            </div>
+        </fieldset>
+        <br>
+        <label for="">Grau de satisfação</label>
+        <input type="range" min="0" max="10" step="2"> 
+        <hr>
+        <button>Cadastrar</button>
+        <input type="submit">
+
+
+
+    </form>
+    
+</body>
+</html>

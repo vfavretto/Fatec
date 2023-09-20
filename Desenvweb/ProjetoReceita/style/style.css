@@ -27,7 +27,7 @@ h2{
 }
 
 #icon {
-   position: relative; top: 13px;
+   position: relative; bottom: 10px;
 }
 
 legend{
@@ -39,10 +39,10 @@ li {
 }
 
 #ul_cab li{
-    display: inline;
+    display: inline-flex;
     background-color: rgb(191, 119, 32, 1);
     text-decoration: none;
-    padding: 40px 10px 40px 10px;
+    padding: 30px 10px 10px 10px;
 }
 
 div#molho, div#poche, div#montagem {
