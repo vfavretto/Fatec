@@ -1,0 +1,53 @@
+
+h2 {
+    font-family: "Roboto Slab", Times, serif;
+    text-align: center;
+}
+
+nav ul {
+    position: relative;
+    list-style-type: none;
+    text-align: center;
+}
+nav ul li {
+    position: relative;
+    display: inline;
+    background-color: rgb(200, 226, 183);
+    color: black;
+    padding: 8px;
+    font-size: large;
+    border-radius: 7px;
+    border: solid grey;
+}
+
+nav ul li:hover{
+    background-color: gray;
+    color: rgb(176, 7, 7);
+    text-decoration: underline;
+}
+
+nav ul a{
+    text-decoration: none;
+}
+
+section{
+    background-color: rgb(191, 227, 191);
+    border: solid 2px rgb(0, 106, 255);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+video, audio, iframe {
+    display: block;
+    max-width: 80%;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+div {
+    justify-content: space-between;
+    display: inline;
+}
