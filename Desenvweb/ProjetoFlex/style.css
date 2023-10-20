@@ -1,0 +1,16 @@
+h2{
+    color: antiquewhite;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid;
+}
+

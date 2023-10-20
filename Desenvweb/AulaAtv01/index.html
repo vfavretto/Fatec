@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+     <fieldset>
+            <legend><b>Exercício 1</b> - Cálculo de salário</legend>
+            <div id="exercicio_1">
+                <label for="salario">Informe o salário: </label>
+                <input type="number" name="salario" id="salario">
+                
+                <label for="aumento">Informe um percentual de aumento: </label>
+                <input type="number" name="aumento" id="aumento">%
+                
+                <input type="button" value="Calcular" id="btnCalcular" onclick="calcular()">
+
+                <br>
+                <p id="result01">Novo salário: <span id="resultado01">0.00</span></p>
+
+
+                <script>
+                    function calcular(){
+                        let salario = 0.00;
+                        salario = Number(document.getElementById('salario').value);
+                        let aumento = 0.00;
+                        aumento = Number(document.getElementById('aumento').value);
+                        let nSal = (salario + salario) * aumento/100;
+
+                        document.getElementById('result01').innerText = `R$${nSal.toFixed(2)}`
+
+                    }
+                </script>
+            </div>
+        </fieldset>
+
+    
+</body>
+</html>
