@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pacotes de viagem</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h2>Viagem FatecVot</h2>
+    <label for="NomeCli">nome:</label>
+    <input type="text" name="NomeCliente" id="NomeCli">
+
+    <label>Pacotes:</label>
+   <input type="radio" name="pacotes" value="1000"><label>Pacote 1</label>
+   <input type="radio" name="pacotes" value="2000"><label>Pacote 2</label>
+   <input type="radio" name="pacotes" value="3000"><label>Pacote 3</label>
+   
+   <hr>
+   <label>Adicionais:</label> 
+   <input type="checkbox" name="adicionais" value="300">
+   <label>Alimentação</label>
+   <input type="checkbox" name="adicionais" value="150">
+   <label>Veiculo</label>
+   <input type="checkbox" name="adicionais" value="50">
+   <label>Translado</label>
+<br><br>
+   <button onclick="CalcularTotalViagem()">Calcular Pacote</button>
+
+<br><br>
+
+<p id="resultado"></p>
+   
+</body>
+</html>
