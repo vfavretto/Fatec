@@ -39,23 +39,39 @@ a{
     padding-block: 16px;
 }
 
-.hero {
+/* .hero {
     height: calc(100vh - 70px);
     background: center / cover no-repeat
-}
+} */
 
-.button{
+.button :hover{
     width: 60px;
     display: block;
     margin-inline: auto;
 }
 
-.div1 {
-    align-items: center;
-    justify-content: center;
+.zoom {
+        padding: 50px;
+        transition: transform .2s;
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+}
 
+.zoom :hover{
+  transform: scale(2.5);
 }
 
 .sonic, .smile{
-    width: 100px;
+    width: 200px;
 }
+
+h1{
+    text-align: center;
+}
+
+/* .vermelho :hover {
+    fill:red;
+    color: red;
+    width: auto;
+} */
