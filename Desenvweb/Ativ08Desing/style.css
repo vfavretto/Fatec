@@ -44,18 +44,28 @@ a{
     background: center / cover no-repeat
 }
 
-.button{
+.button :hover{
     width: 60px;
     display: block;
     margin-inline: auto;
+    transition: all 0.5 ease;
 }
 
-.div1 {
-    align-items: center;
-    justify-content: center;
 
+.zoom {
+    padding: 50px;
+  transition: transform .2s;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
 }
 
-.sonic, .smile{
-    width: 100px;
+.zoom :hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+.sonic {
+    width: 200px;
 }
