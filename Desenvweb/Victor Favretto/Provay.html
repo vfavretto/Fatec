@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <title>Prova</title>
+      
+</head>
+<body class="container-fluid">
+    <div class="p-3 mb-2 bg-warning-subtle text-emphasis-warning">
+        <div class="alert alert-primary" role="alert">
+            <i class="ri-home-7-fill">
+            Lanchonete Provão
+          </i>
+        </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <label for="nome" class="form-label" >Nome:</label>
+                    <input type="text" name="nome" class="form-control" >
+                </div>
+                <div class="col-md-6">
+                    <label for="fone" class="form-label" >Fone:</label>
+                    <input type="text" name="fone" class="form-control" >
+                </div>
+            </div>
+            <br>
+            <h5> Escolha a Promoção: </h5>  
+            <br>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="container text-center">
+                        <div class="row align-items-center">
+                            <div class="col">
+                                <h4>Promoção 1</h4>
+                            </div>
+                            <div class="">
+                                <img src="Foto1.jpg" class="img-fluid rounded">
+                            </div>
+                            <div class="col">
+                                <input type="radio" name="lanche"> R$ 40,00
+                            </div>
+                            <label>Qtd&nbsp</label><input type="text" size="5" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="container text-center">
+                        <div class="row align-items-center">
+                          <div class="col">
+                              <h4>Promoção 2</h4>
+                            </div>
+                            <div>
+                                <img src="Foto2.jpg" class="img-fluid rounded" >
+                            </div>
+                            <div class="col">
+                                <input type="radio" name="lanche"> R$ 60,00
+                            </div>
+                    <label>Qtd&nbsp</label><input type="text" size="5" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="container text-center">
+                        <div class="row align-items-center">
+                            <div class="col">
+                                <h4>Promoção 3</h4>
+                            </div>
+                            <div>
+                                <img src="foto3.webp" id="promo3" class="img-fluid rounded">
+                            </div>
+                            <div class="col">
+                                <input type="radio" name="lanche"> R$ 60,00
+                            </div>
+                            <label>Qtd&nbsp</label><input type="text" size="5" class="form-control">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            
+            <label >Adicionais:</label><br>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                <label class="form-check-label" for="inlineCheckbox1">Batata R$ 10,00</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                <label class="form-check-label" for="inlineCheckbox2">Cebola R$ 5,00</label>
+            </div>
+            <br>
+            <br>
+            <div class="p-3 mb-2 bg-warning text-emphasis-warning">
+                
+                <div class="container text-center">
+                    <div class="row mb-5">
+                        <div class="col">
+                            <button type="button" class="btn btn-primary">
+                                Comprar: <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-check" viewBox="0 0 16 16">
+                                    <path d="M11.354 6.354a.5.5 0 0 0-.708-.708L8 8.293 6.854 7.146a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
+                                    <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0"/>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="col">
+                            <label class="total" >Total: </label>
+                        </div>
+                        <div class="col">
+                            <label class="total" >Desconto: </label>
+                        </div>
+                        <div class="col">
+                            <label class="total" >Total com Desconto: </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+</body>
+</html>
